@@ -1,0 +1,16 @@
+services:
+  log.accenture.api:
+    build:
+      context: C:\Accenture\BackEnd\Log.Accenture
+      dockerfile: Log.Accenture.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: logaccentureapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\esver\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\esver\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Log.Accenture.Domain/1.0.0": {
+        "dependencies": {
+          "Log.Accenture.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Log.Accenture.Domain.dll": {}
+        }
+      },
+      "Log.Accenture.Domain.Core/1.0.0": {
+        "runtime": {
+          "Log.Accenture.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Log.Accenture.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Log.Accenture.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\bin\Debug\net7.0\Log.Accenture.Domain.deps.json
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\bin\Debug\net7.0\Log.Accenture.Domain.dll
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\bin\Debug\net7.0\Log.Accenture.Domain.pdb
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\bin\Debug\net7.0\Log.Accenture.Domain.Core.dll
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\bin\Debug\net7.0\Log.Accenture.Domain.Core.pdb
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\obj\Debug\net7.0\Log.Accenture.Domain.csproj.AssemblyReference.cache
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\obj\Debug\net7.0\Log.Accenture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\obj\Debug\net7.0\Log.Accenture.Domain.AssemblyInfoInputs.cache
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\obj\Debug\net7.0\Log.Accenture.Domain.AssemblyInfo.cs
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\obj\Debug\net7.0\Log.Accenture.Domain.csproj.CoreCompileInputs.cache
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\obj\Debug\net7.0\Log.Accenture.Domain.csproj.CopyComplete
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\obj\Debug\net7.0\Log.Accenture.Domain.dll
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\obj\Debug\net7.0\refint\Log.Accenture.Domain.dll
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\obj\Debug\net7.0\Log.Accenture.Domain.pdb
+C:\Accenture\BackEnd\Log.Accenture\Log.Accenture.Domain\obj\Debug\net7.0\ref\Log.Accenture.Domain.dll

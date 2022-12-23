@@ -1,0 +1,40 @@
+networks:
+  logaccentureapi: {}
+services:
+  app-db:
+    container_name: app-db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Logs@2022
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      logaccentureapi: {}
+    ports:
+    - published: 8002
+      target: 1433
+  log.accenture.api:
+    build:
+      context: C:\Accenture\BackEnd\Log.Accenture
+      dockerfile: Log.Accenture.Api/Dockerfile
+    container_name: LogSystem
+    depends_on:
+      app-db:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DBNAME: TestAccenture
+      DB_HOST: logaccentureapi
+      DB_SA_PASSWORD: Logs@2022
+    image: logaccentureapi
+    networks:
+      logaccentureapi: {}
+    ports:
+    - published: 8001
+      target: 80
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\esver\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\esver\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

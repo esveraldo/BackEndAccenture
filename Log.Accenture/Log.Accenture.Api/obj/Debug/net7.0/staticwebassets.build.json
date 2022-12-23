@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FTIOmyvfXnhhhISO0TCyxOtgHisgFvMC0BzTuI8/8vw=",
+  "Source": "Log.Accenture.Api",
+  "BasePath": "_content/Log.Accenture.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
